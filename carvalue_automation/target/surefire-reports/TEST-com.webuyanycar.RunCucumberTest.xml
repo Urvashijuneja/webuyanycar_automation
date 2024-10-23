@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.webuyanycar.RunCucumberTest" time="22.741" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation\target\test-classes;C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation\target\classes;C:\Users\MDUser\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\MDUser\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\MDUser\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\MDUser\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-junit\7.8.0\cucumber-junit-7.8.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\playwright\1.35.0\playwright-1.35.0.jar;C:\Users\MDUser\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\MDUser\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\driver\1.35.0\driver-1.35.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.0\driver-bundle-1.35.0.jar;C:\Users\MDUser\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\MDUser\.m2\repository\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;C:\Users\MDUser\.m2\repository\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\MDUser\AppData\Local\Temp\surefire4048823101687673108\surefirebooter-20241023102750286_3.jar C:\Users\MDUser\AppData\Local\Temp\surefire4048823101687673108 2024-10-23T10-27-50_054-jvmRun1 surefire-20241023102750286_1tmp surefire_0-20241023102750286_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation\target\test-classes;C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation\target\classes;C:\Users\MDUser\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\MDUser\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\MDUser\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\MDUser\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\MDUser\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MDUser\.m2\repository\io\cucumber\cucumber-junit\7.8.0\cucumber-junit-7.8.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\playwright\1.35.0\playwright-1.35.0.jar;C:\Users\MDUser\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\MDUser\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\driver\1.35.0\driver-1.35.0.jar;C:\Users\MDUser\.m2\repository\com\microsoft\playwright\driver-bundle\1.35.0\driver-bundle-1.35.0.jar;C:\Users\MDUser\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\MDUser\.m2\repository\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;C:\Users\MDUser\.m2\repository\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MDUser"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\MDUser\AppData\Local\Temp\surefire4048823101687673108\surefirebooter-20241023102750286_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+7-LTS-222"/>
+    <property name="user.name" value="MDUser"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\MDUser\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MDUser\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.2.3"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Users\MDUser\NewAutomation\WE-BUY-ANY-CAR-AUTOMATION\webuyanycar_automation\carvalue_automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-11\bin;%JAVA_HOME%\bin;%MAVEN_HOME%\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Users\MDUser\AppData\Local\Programs\Python\Launcher\;C:\Users\MDUser\AppData\Local\Microsoft\WindowsApps;;C:\Users\MDUser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MDUser\AppData\Roaming\npm;C:\Users\MDUser\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.23+7-LTS-222"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Verify car value from registration numbers in input file" classname="Verify car values from output file for registration numbers from input files" time="22.205">
+    <system-out><![CDATA[
+Scenario Outline: Verify car value from registration numbers in input file                     # src/test/resources/features/carvalue.feature:11
+TEST ! STEP[BW57BOW, KT17DLX, AD58VNF, SG18HTN]
+  Given the user has noted the car registration numbers from "car_input.txt"                   # com.webuyanycar.CarValueSteps.loadCarRegistrations(java.lang.String)
+  And the user compares the car value mentioned in the "car_output.txt"                        # com.webuyanycar.CarValueSteps.compareWithOutputFile(java.lang.String)
+BW57BOW
+Car not found on website for registration: BW57BOW
+KT17DLX
+Car found on website for registration: KT17DLX
+AD58VNF
+Car found on website for registration: AD58VNF
+SG18HTN
+Car not found on website for registration: SG18HTN
+  When the user enters each registration number from the input file on the webuyanycar website # com.webuyanycar.CarValueSteps.enterRegistrationNumbersOnWebsite()
+]]></system-out>
+  </testcase>
+</testsuite>
